@@ -31,6 +31,7 @@ from victims_web.blueprints.service_v1 import v1
 from victims_web.blueprints.service_v2 import v2, SUBMISSION_ROUTES
 from victims_web.blueprints.ui import ui
 from victims_web.blueprints.auth import auth
+from victims_web.blueprints.dbSearch import dbSearch
 
 from victims_web.cache import cache
 from victims_web.handlers.security import setup_security
