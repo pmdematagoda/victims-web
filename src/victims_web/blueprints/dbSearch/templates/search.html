@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+
+  
+<table>
+
+    <form method="POST">
+    <p>
+    <select name='field'>
+    
+    {% for field in acceptedFields %}
+    <option value="{{ field }}">{{ field }}</option>
+        
+    {% endfor %}
+    </select>
+    <input name="searchString" value="{{ searchString }}"/>
+    <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+    <input type="submit" value="Search!"/></p>
+    </form>
+
+
+    {% if numResults!=0 %}
+  
+    <font color='blue'> {{numResults}} results found </font>
+    <tr>
+        <th>Name-Version</th>
+        <th>SHA512 Hash</th>
+      </tr>
+      {% for hash in hashes %}
+      <tr>
+        
+        <td>{{ hash.username }} {{hash.password}}</td>
+      </tr>
+      {% endfor %}
+  {% else %}
+
+    <font color='red'>No Results Found</font>
+      
+  {% endif %}
+  
+</table>
+{% endblock %}
