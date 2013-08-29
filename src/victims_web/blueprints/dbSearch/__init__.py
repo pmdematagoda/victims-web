@@ -38,21 +38,6 @@ from mongoengine import (StringField, DateTimeField, DictField,
 
 dbSearch = Blueprint('dbSearch', __name__,template_folder='templates')  
 
-
-class FakeHashes():
-    def __init__(self,hash):
-        self.sha512 = FakeSha512(hash)
-        
-class FakeSha512:
-    def __init__(self,hash):
-        self.combined = hash
-    
-class FakeHash():
-    def __init__(self,name,hash):
-        self.name = name
-        self.version = 1.0
-        self.hashes=FakeHashes(hash)
-    
 @dbSearch.route('/search', methods=['GET','POST'])
 @cache.memoize()
 def search(query=None):
@@ -70,31 +55,31 @@ def search(query=None):
             acceptedFields.append(field)
     
    """
-    acceptedFields = ['username','hash','cves','vendor','submitter','format','password']
-    #For testing
-    fakehash1 = FakeHash('h1','lolhash1')
-    fakehash2 = FakeHash('h2','lolhash2')
-    hashes = {fakehash1, fakehash2}
+    acceptedFields = ['name','cves','submitter','format','vendor','status']
+    hashFields=['sha512','sha256','md5']
+    acceptedFields.extend(hashFields)
     searchString=  ""
     
     #Note to self:: look into Q objects for complex queries:
     #https://docs.djangoproject.com/en/dev/topics/db/queries/
-    from victims_web.models import Account
-    hashes = Account.objects()
+    hashes = Hash.objects()
     if request.method == 'POST':
     #filter results
         
-        searchField = request.form.get('field','username')
+        searchField = request.form.get('field','name')
         searchString = request.form.get('searchString','')
         
-        print searchField
-        print searchString 
-        if isinstance(getattr(Account,searchField),StringField):
-            lookup = "%s__icontains" % searchField    
+        if searchField in hashFields:
+            lookup = "hashes__%s__combined__icontains" % searchField
+            flash(lookup)
+            hashes = hashes.filter(**{lookup: searchString})
         else:
-            lookup = searchField
-        hashes = hashes.filter(**{lookup: searchString})
-        
+            if isinstance(getattr(Hash,searchField),StringField):
+                lookup = "%s__icontains" % searchField    
+            else:
+                lookup = searchField
+            hashes = hashes.filter(**{lookup: searchString})
+            
         #keep search string and field after search
         fieldId = acceptedFields.index(searchField)
         #reorder dropdown menu

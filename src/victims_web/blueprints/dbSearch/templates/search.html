@@ -31,8 +31,10 @@
       </tr>
       {% for hash in hashes %}
       <tr>
-        
-        <td>{{ hash.username }} {{hash.password}}</td>
+            <td>{{ hash.name }}-{{ hash.version }}</td>
+            <td>
+            <a href="{{ url_for('ui.hash', hash=hash.hashes.sha512.combined) }}">            
+            {{hash.hashes.sha512.combined[:50]}}</a> </td>
       </tr>
       {% endfor %}
   {% else %}
