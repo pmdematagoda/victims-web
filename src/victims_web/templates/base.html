@@ -12,6 +12,7 @@
 <body>
 
 <div id="wrap">
+  <div id="wrapheader">
     <div id="header">
         <h1><a href="{{ url_for('ui.index') }}">victims</a></h1>
         <h2>don't be one</h2>
@@ -38,7 +39,7 @@
         {% endif %}
 	    <a href="{{ url_for('dbSearch.search')}}"> Search </a>
     </div>
-
+</div>
     <div id="content">
 {% with messages = get_flashed_messages(with_categories=true) %}
   {% if messages %}

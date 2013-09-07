@@ -23,11 +23,26 @@ a:hover { color: #000; }
   background-color: #fff;
 }
 
+#wrapheader
+{
+    position:fixed;
+    left:0;
+    display:nline-block;
+    white-space: nowrap;
+    width:100%;
+    top:0;
+    background-color:#fff;
+/*	background: linear-gradient(to bottom right, #fff, #6699FF);*/
+}
 
 #header 
 {
-  height : 90px;
-  background-color : #000;
+    border-top: 1px solid #001;
+    border-bottom: 3px solid #001;
+    height: 160px;
+    margin-left:15%;;
+    text-align:right;
+    float: left;
 }
 #header h1 { padding-left: 10px; padding-top: 12px; font-size: 25px; color: #FFF; }
 #header h1 a { font-size: 25px; color: #FFF; text-decoration: none;}
@@ -51,10 +66,12 @@ a:hover { color: #000; }
 
 #menu {
   text-align: center;
+  height: 160px
   margin-top: 10px;
-  font-size : 18px;
+  font-size : 25px;
   font-weight: 600;
-  border: 1px solid #ccc; 
+  border-top: 1px solid #001;
+  border-bottom : 3px solid #001;
   background: #eee;
 }
 
@@ -69,10 +86,14 @@ a:hover { color: #000; }
 
 
 #content { 
-  text-align: left;
-  margin-top: 5px;
-  padding: 10px;
-  font-size: 14px;
+    padding:10px;
+    padding-bottom:90px;   /* Height of the footer element  -> a touch bigger to include white space*/
+    text-align: left;
+    margin-top: 5px;
+    font-size: 14px;
+    width:80%;
+    margin-left: 10%;
+    padding-top:220px;    /*To place it under the floating header*/
 }
 #content h2 { font-size: 15px; color : #444; }
 
