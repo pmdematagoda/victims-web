@@ -26,6 +26,7 @@ from werkzeug import secure_filename
 from victims_web import config
 from victims_web.models import Submission
 from victims_web.plugin.charon import download
+from victims_web.plugin.crosstalk import indexmon
 from victims_web.util import set_hash
 
 
@@ -52,8 +53,10 @@ def submit(submitter, source, group=None, filename=None, suffix=None, cves=[],
     submission.validate()
     submission.save()
 
-    # TODO: Make this async
     set_hash(submission)
+
+    # ensure index stats are refreshed
+    indexmon.refresh()
 
 
 def get_upload_folder():

@@ -25,6 +25,7 @@ from flask import Blueprint, Response, request, current_app
 
 from victims_web.cache import cache
 from victims_web.handlers.security import apiauth, api_request_user
+from victims_web.handlers.sslify import ssl_exclude
 from victims_web.models import Hash, Removal, JsonifyMixin
 from victims_web.submissions import submit, upload
 from victims_web.util import groups
@@ -148,18 +149,20 @@ def status():
     return make_response(data)
 
 
-@v2.route('/update/<since>/', methods=['GET'])
-def update(since):
+@v2.route('/update/<group>/<since>/', methods=['GET'])
+def update_for_group(group, since):
     """
-    Returns all items to add past a specific date in utc.
+    Returns all items updated  past a specific date in utc.
 
     :Parameters:
        - `since`: a specific date in utc
+       - `group`: group to limit items to
     """
     try:
 
         items = Hash.objects(
-            date__gt=datetime.datetime.strptime(since, "%Y-%m-%dT%H:%M:%S")
+            date__gt=datetime.datetime.strptime(since, "%Y-%m-%dT%H:%M:%S"),
+            group=group
         )
         fields = None
         if request.args.get('fields', None):
@@ -177,21 +180,45 @@ def update(since):
         return error()
 
 
-@v2.route('/remove/<since>/')
+@v2.route('/update/<since>/', methods=['GET'])
+def update(since):
+    """
+    Default update service.
+
+    :Parameters:
+       - `since`: a specific date in utc
+    """
+    return update_for_group(current_app.config['DEFAULT_GROUP'], since)
+
+
+@v2.route('/remove/<group>/<since>/')
 @cache.memoize()
-def remove(since):
+def remove_for_group(group, since):
     """
     Returns all items to remove past a specific date in utc.
 
     :Parameters:
        - `since`: a specific date in utc
+       - `group`: group to limit items to
     """
     try:
         timestamp = datetime.datetime.strptime(since, "%Y-%m-%dT%H:%M:%S")
-        items = Removal.objects(date__gt=timestamp)
+        items = Removal.objects(date__gt=timestamp, group=group)
         return stream_items(items)
     except:
         return error()
+
+
+@v2.route('/remove/<since>/')
+@cache.memoize()
+def remove(since):
+    """
+    Default remove service.
+
+    :Parameters:
+       - `since`: a specific date in utc
+    """
+    return remove_for_group(current_app.config['DEFAULT_GROUP'], since)
 
 
 @v2.route('/cves/<algorithm>/<arg>/', methods=['GET'])
@@ -290,3 +317,6 @@ def submit_archive(group):
         return error()
 
 SUBMISSION_ROUTES = [submit_hash, submit_archive]
+
+for v in [update, remove, cves]:
+    ssl_exclude(update)

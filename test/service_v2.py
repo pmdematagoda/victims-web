@@ -29,7 +29,7 @@ from os.path import isdir
 
 from test import UserTestCase
 
-from victims_web.config import UPLOAD_FOLDER, VICTIMS_API_HEADER
+from victims_web.config import DEFAULT_GROUP, UPLOAD_FOLDER, VICTIMS_API_HEADER
 from victims_web.models import Removal, Submission
 from victims_web.handlers.security import generate_signature
 
@@ -172,6 +172,7 @@ class TestServiceV2(UserTestCase):
         test_hash = 'ABC123'
         removal = Removal()
         removal.hash = test_hash
+        removal.group = DEFAULT_GROUP
         removal.validate()
         removal.save()
         resp = self.app.get(
@@ -208,7 +209,7 @@ class TestServiceV2(UserTestCase):
             md5sums, status_code, apikey, secret
         )
 
-    def make_test_file(self):
+    def make_submission_archive(self):
         testfilename = 'testfile.jar'
         content = 'test content'
         md5sum = md5(content).hexdigest()
@@ -229,7 +230,7 @@ class TestServiceV2(UserTestCase):
         return uploaded
 
     def basicauth_submission(self, username, password, code=201):
-        (testfilename, _, data) = self.make_test_file()
+        (testfilename, _, data) = self.make_submission_archive()
         path = '/service/v2/submit/archive/java?cves=CVE-000-000'
 
         headers = {
@@ -267,7 +268,7 @@ class TestServiceV2(UserTestCase):
 
     def json_submit_file(self, group, status_code, argstr=None, apikey=None,
                          secret=None):
-        (testfilename, filemd5, data) = self.make_test_file()
+        (testfilename, filemd5, data) = self.make_submission_archive()
         md5sums = [filemd5]
         path = '/service/v2/submit/archive/%s' % (group)
         if argstr:

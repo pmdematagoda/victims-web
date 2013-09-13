@@ -64,9 +64,10 @@ RECAPTCHA_THEME = 'blackglass'
 # Hashing options
 BCRYPT_LOG_ROUNDS = 13
 
-# Submission settings
+# Group settings
+DEFAULT_GROUP = 'java'
 SUBMISSION_GROUPS = {
-    'java': ['groupId', 'artifactId', 'versionId'],
+    'java': ['groupId', 'artifactId', 'version'],
     'python': ['package', 'version'],
     'ruby': ['gem', 'version'],
 }
