@@ -122,7 +122,6 @@ app.register_blueprint(v2, url_prefix='/service/v2')
 app.register_blueprint(v2, url_prefix='/service')
 app.register_blueprint(ui)
 app.register_blueprint(auth)
-app.register_blueprint(dbSearch)
 
 if app.config.get('SENTRY_DSN', None):
     from raven.contrib.flask import Sentry
