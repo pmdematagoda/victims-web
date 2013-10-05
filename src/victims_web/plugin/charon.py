@@ -35,6 +35,8 @@ LOGGER = config.LOGGER
 # Set up repositories
 REPOSITORIES = {
     'java': [('public', 'http://repo1.maven.org/maven2/')],
+    'python': [('pypi', 'https://pypi.python.org/packages/source/')],
+    'ruby': [('rubygems', 'http://rubygems.org/downloads/')],
 }
 for (name, uri) in config.MAVEN_REPOSITORIES:
     if (name, uri) not in REPOSITORIES:
