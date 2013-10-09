@@ -24,8 +24,9 @@ from uuid import uuid4
 
 from victims_web import config
 from victims_web.plugin.maven import (
-    Artifact, MavenHttpRemoteRepos, DownloadException
+    Artifact, MavenHttpRemoteRepos
 )
+from victims_web.plugin.downloader import DownloadException
 
 
 DOWNLOADS_DIR = config.DOWNLOAD_FOLDER
