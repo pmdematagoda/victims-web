@@ -49,7 +49,9 @@ hashCheckBoxes={}
 for hashType in hashFields.keys():
     hashCheckBoxes[hashType]=[True,False]
 printFields={'name','version','hashes.sha512.combined'}
-   
+ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','-','+','=','?','\"','\'','<','>']
+unsanitisedMessage="The following characters are not allowed:"
+unsanitisedMessage+= "".join(ILLEGAL_CHARACTERS)
 
 def getOrderedStringFields(default=None):
     list = stringFields.keys()
@@ -65,13 +67,16 @@ def getOrderedStringFields(default=None):
 def sanitised(string):
     """Sanitises a string against nosql injection errors. 
     Returns 1 if safe, else 0"""
+    for c in ILLEGAL_CHARACTERS:
+        if c in string:
+            return 0
     return 1
     
 def basicSearch(searchField,searchString):
     """Does a basic search of the database, specific to one field at a
     time, any hash searches only checked the combined field."""
     if not sanitised(searchString):
-        return (False,"Invalid Input", [])
+        return (False,"Invalid Input." + unsanitisedMessage, [])
     
     if len(searchString) == 0:
         return (False,"",[])
@@ -149,7 +154,7 @@ def advancedSearch():
         #Get and sanitise input
         searchString = str(request.form.get(field+"_searchString",""))
         if not sanitised(searchString):
-            return (False,"Invalid Input for field: "+field+".", [])        
+            return (False,"Invalid Input for field: "+field+"." + unsanitisedMessage, [])        
         stringFields[field]=searchString
         if len(searchString) > 0:
             filterFields.append(field)
@@ -164,7 +169,7 @@ def advancedSearch():
         #Get and sanitise input
         searchString = str(request.form.get(field+"_searchString",""))
         if not sanitised(searchString):
-            return (False,"Invalid Input for field: "+field+".", [])        
+            return (False,"Invalid Input for field: "+field+"." + unsanitisedMessage, [])        
         hashFields[field]=searchString
         SetHashCheckedBoxes(field)        
         if len(searchString) > 0:            
