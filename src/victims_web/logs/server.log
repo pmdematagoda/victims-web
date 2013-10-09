@@ -1,0 +1,997 @@
+Mon Oct 07 2013 12:55:23 EST - INFO:  * Running on http://127.0.0.1:5000/
+Mon Oct 07 2013 12:55:23 EST - INFO:  * Restarting with reloader
+Mon Oct 07 2013 12:56:01 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:01] "GET / HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:02 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:02] "GET /static//css/style.css HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:02 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:02] "GET /static//images/victims-button.png HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:02 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:02] "GET /favicon.ico HTTP/1.1" 404 -
+Mon Oct 07 2013 12:56:11 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:11] "GET /search HTTP/1.1" 500 -
+Mon Oct 07 2013 12:56:12 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:12] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:12 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:12] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:12 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:12] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:12 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:12] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:13 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:13] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:13 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:13] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Mon Oct 07 2013 12:56:13 EST - INFO: 127.0.0.1 - - [07/Oct/2013 12:56:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 14:14:08 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 14:14:08 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 14:14:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:14:34] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 14:14:39 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:14:39] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 14:14:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:14:44] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 14:29:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:29:12] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 14:29:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:29:14] "GET /hashes/?group=all HTTP/1.1" 200 -
+Wed Oct 09 2013 14:29:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:29:15] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 14:30:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:30:22] "GET /hashes/?group=python HTTP/1.1" 200 -
+Wed Oct 09 2013 14:30:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:30:24] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 14:30:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:30:32] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 14:30:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:30:34] "GET /hashes/?group=python HTTP/1.1" 200 -
+Wed Oct 09 2013 14:41:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 14:41:40] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 14:58:37 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 14:58:37 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:11:44 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:11:44 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:12:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:00] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 15:12:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:00] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:01] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:01] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:01] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:01] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:01] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:10 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 15:12:10 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:12:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:18] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 15:12:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:18] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:18] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:18] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:19] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:19] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:12:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:12:19] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:13:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:13:54] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:15:14 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:15:14 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:15:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:15:18] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:15:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:15:18] "GET /static//css/style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:15:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:15:18] "GET /static//images/victims-button.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:15:34 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:15:34 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:18:37 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 15:18:37 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:18:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:18:43] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:18:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:18:45] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:18:46] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:20:01 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:20:01 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:21:26 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:21:26 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:24:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:24:43] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 15:24:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:24:44] "GET /hashes/?group=all HTTP/1.1" 200 -
+Wed Oct 09 2013 15:27:19 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:27:19 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:29:59 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:29:59 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:33:15 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:33:15 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:33:21 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:33:21 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:33:58 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:33:58 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:35:00 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 15:35:00 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:35:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:35:05] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:35:07 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:35:07] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:35:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:35:08] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:35:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:35:11] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:35:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:35:12] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:39:02 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:39:02 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:39:51 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:39:51 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:41:41 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:41:41 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:42:00 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:42:00 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:45:17 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:45:17 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:45:43 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:45:43 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:45:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:51] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 15:45:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:51] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:51] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:51] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:52] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:52] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:45:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:45:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:46:20 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:46:20 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:47:21 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 15:47:21 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:47:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:25] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 15:47:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:25] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 15:47:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:26] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:47:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:26] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 15:47:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:26] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 15:47:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:26] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:47:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:47:26] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 15:48:02 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:48:02 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:48:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:48:06] "GET /search?__debugger__=yes&cmd=source&frm=4283182668&s=fv5oIzaN2B2rkTPAHafQ HTTP/1.1" 500 -
+Wed Oct 09 2013 15:48:35 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:48:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:48:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:48:48] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:48:53 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:48:53] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:49:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:49:16] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:49:44 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:49:44 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:49:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:49:54] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:50:02 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:50:02] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:50:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:50:05] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:50:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:50:12] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:50:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:50:45] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:51:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:51:11] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:52:18 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:52:18 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:52:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:52:22] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:52:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:52:28] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:52:38 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:52:38] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:53:40 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:53:40 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:53:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:53:46] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:54:31 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:54:31 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:55:22 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:55:22 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:55:35 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:55:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:55:52 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:55:52 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:56:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:56:01] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:56:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:56:03] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:56:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:56:10] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:56:19 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:56:19 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:57:30 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:57:30 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:58:08 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:58:08 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:58:20 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:58:20 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:58:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 15:58:24] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 15:58:33 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:58:33 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 15:59:15 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 15:59:15 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:17:00 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 16:17:00 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:17:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:10] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:17] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:17:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:17] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:18] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:18] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:18] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:18] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:18] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:31 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:17:31 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:17:35 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:35] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:39 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:39] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:43] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:17:53 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:17:53 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:17:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:17:59] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:01] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:04 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:04] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:06] "GET /hashes/?group=all HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:08] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:13] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:18:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:18:14] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:19:38 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:19:38 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:20:35 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 16:20:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:20:38 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:38] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:41] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:20:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:41] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:41] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:41] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:42] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:42] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:42] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:20:54 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:20:54 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:20:58 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:20:58] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:00] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:13 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:21:13 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:21:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:16] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:21:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:16] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:17] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:17] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:17] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:17] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:17] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:23 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:21:23 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:21:29 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:29] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:30] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:32] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:37 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:37] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:42] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:46] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:51] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:52] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 16:21:57 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:21:57] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:01] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:03] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:05] "GET /hash/00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000/ HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:16] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:17] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:44] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:51] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:22:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:22:52] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 16:23:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 16:23:00] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 16:25:26 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:25:26 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:25:34 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:25:34 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:25:59 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:25:59 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:26:15 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:26:15 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:58:18 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:58:18 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 16:59:27 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 16:59:27 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:02:00 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 17:02:00 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:24] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:02:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:02:33] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:05:20 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:05:20 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:05:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:05:28] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:06:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:06:05] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:06:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:06:05] "GET /static//css/style.css HTTP/1.1" 304 -
+Wed Oct 09 2013 17:06:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:06:05] "GET /static//images/victims-button.png HTTP/1.1" 304 -
+Wed Oct 09 2013 17:13:16 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:13:16 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:18:31 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:18:31 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:18:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:45] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:18:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:45] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:18:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:18:46] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:19:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:19:34] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:36 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:36] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:54] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:21:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:54] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:54] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:54] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:55] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:55] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:21:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:21:55] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:23:09 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:23:09 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:23:23 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:23:23 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:23:36 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:23:36] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:23:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:23:55] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:24:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:24:08] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:33] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:27:47 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:27:47 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:27:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:27:51] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:28:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:28:50] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:12 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:30:12 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:30:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:15] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:17] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:19] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:24 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:30:24 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:30:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:28] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:29 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:29] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:30] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:30:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:30:33] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:32:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:32:23] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:33:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:33:09] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:34:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:34:08] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:37:38 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:37:38 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:37:47 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:37:47 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:40:32 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 17:40:32 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:40:35 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:35] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:43] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:44] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:45] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:49] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:40:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:40:55] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:41:22 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:41:22 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:41:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:41:28] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:03 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:42:03 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:11] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:14] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:42:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:42:25] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:50:38 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:50:38 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:50:58 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:50:58] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:51:14 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:51:14 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:51:22 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:51:22 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:51:36 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:51:36] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:51:38 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:51:38] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:51:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:51:44] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:51:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:51:46] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:51:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:51:50] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:53:09 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:53:09 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:55:05 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 17:55:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:56:19 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:56:19 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:56:39 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:56:39 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:56:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:56:43] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:56:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:56:49] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:05 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:57:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:57:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:12] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:12] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:26 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:57:26 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:57:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:30] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:33] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:37 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:37] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:49 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 17:57:49 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 17:57:53 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:53] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:55] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:57:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:57:59] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 17:58:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 17:58:05] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:07:03 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:07:03 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:08:05 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:08:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:08:25 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:08:25 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:08:53 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:08:53 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:09:12 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:09:12 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:09:17 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:09:17 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:10:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:13] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:22 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:10:22 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:10:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:25] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:27 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:27] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:33 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:10:33 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:10:45 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 18:10:45 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 18:10:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:48] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 18:10:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:49] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:49] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:49] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:50] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:50] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:50] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:53 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:53] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:57 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:57] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:10:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:10:59] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:11:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:11:01] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:11:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:11:03] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 18:11:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 18:11:09] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 21:20:05 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 21:20:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:03:56 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 22:03:56 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:05:05 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:05:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:05:12 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:05:12 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:10:35 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:10:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:10:55 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:10:55 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:11:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:11:55] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:11:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:11:59] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:03] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:21 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:12:21 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:12:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:41] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:43] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:45] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:48] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:12:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:12:49] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:01 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:13:01 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:13:08 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:13:08 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:13:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:13] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:16] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:19] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:29 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:29] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:13:29 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:29] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:29 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:29] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:30] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:30] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:30] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:30] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:45 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:13:45 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:13:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:50] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:13:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:50] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:50] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:50] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:51] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:51] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:13:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:13:51] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:02 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:14:02 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:14:07 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:14:07 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:14:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:12] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:14:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:12] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:12] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:12] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:13] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:14:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:14:13] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:00] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:01] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:10] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:16:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:16:14] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:18 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:17:18 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:17:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:24] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:31] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:33] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:17:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:17:40] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:12 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:18:12 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:18:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:16] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:17] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:23] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:18:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:18:28] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:09 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:19:09 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:19:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:15] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:19] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:19:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:19] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:20] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:20] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:20] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:20] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:19:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:19:20] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:40 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:21:40 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:21:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:44] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:49] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:21:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:49] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:49] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:49] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:49] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:50] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:21:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:21:50] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:03 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:22:03 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:22:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:17] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:22] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:22:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:22] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:22] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:22] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:23] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:23] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:22:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:22:23] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:33 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:23:33 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:23:39 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:39] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:42] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:23:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:42] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:42] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:43] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:43] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:43] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:23:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:23:43] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:16 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:25:16 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:20 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:20] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:41 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:25:41 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:25:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:46] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:51] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:25:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:51] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:51] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:52] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:52] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:25:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:25:52] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:55 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:26:55 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:26:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:26:59] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:05] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:27:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:27:17] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:04 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:28:04 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:28:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:08] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:13] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:28:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:28:14] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:30:50 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:30:50 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:30:53 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:30:53] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:30:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:30:59] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:30:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:30:59] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:30:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:30:59] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:30:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:30:59] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:00] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:00] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:00] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:27 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:27] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:31] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:33] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:41] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:31:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:41] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:41] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:41] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:41] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:42] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:31:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:31:42] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:11] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:22] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:26] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:31] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:33:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:31] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:31] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:31] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:31] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:32] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:32] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:47 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:47] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:54] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:33:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:33:59] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:34:59 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:34:59 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:35:02 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:02] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:03] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:05] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:07 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:07] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:11] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:19] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:23] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:42] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:47 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:47] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:35:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:35:52] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:36:54 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:36:54 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:37:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:03] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:37:07 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:07] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:37:12 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:12] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:37:40 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:37:40 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:37:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:49] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:37:53 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:53] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:37:58 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:37:58] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:38:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:38:06] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:38:46 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:38:46 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:38:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:38:51] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:38:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:38:54] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:38:57 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:38:57] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:01] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:05] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:08] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:39:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:39:09] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:03 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:40:03 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:40:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:32] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:33] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:37 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:37] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:40] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:45] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:48] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:51] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:40:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:51] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:51] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:51] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:52] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:52] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:40:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:40:52] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:42:34 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 22:42:34 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:42:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:42:40] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:42:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:42:46] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:45:52 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:45:52 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:46:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:10] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:15] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:25] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:46:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:25] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:25] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:25] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:25] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:26] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:26] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:46:33 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:46:33] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:12 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:48:12 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:23] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:25] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:27 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:27] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:48:35 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:48:35] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:41 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:49:41 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:49:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:45] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:49] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:50 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:49:50] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:49:56 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:49:56 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:50:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:50:00] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:50:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:50:01] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:50:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:50:06] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:50:50 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:50:50 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:50:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:50:54] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:50:56 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:50:56] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:16] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:25] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:28 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:28] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:30] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:34] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:37 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:37] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:41] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:46] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:51] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:51] "GET /static//css/style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:51] "GET /static//images/victims-button.png HTTP/1.1" 200 -
+Wed Oct 09 2013 22:51:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:51] "GET /favicon.ico HTTP/1.1" 404 -
+Wed Oct 09 2013 22:51:57 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:51:57] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:00] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:03] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:17] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:22] "GET /bugs.html HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:23] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:40 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:52:40 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:52:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:52] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:54 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:54] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:52:59 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:52:59] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:53:07 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:53:07] "GET /bugs.html HTTP/1.1" 200 -
+Wed Oct 09 2013 22:53:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:53:08] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:53:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:53:15] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 22:53:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:53:16] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:53:48 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:53:48 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:53:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:53:51] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:54:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:54:01] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:54:35 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:54:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:54:38 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:54:38] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:54:41] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:54:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:54:49] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:02 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:02] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:07 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:07] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:09] "GET / HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:11] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:18] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:30 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:55:30 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:55:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:34] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:55:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:55:42] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:56:25 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 22:56:25 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 22:56:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:56:31] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:56:36 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:56:36] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:56:39 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:56:39] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:56:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:56:43] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:56:55 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:56:55] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:57:00 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:57:00] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 22:57:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 22:57:05] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:04:25 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:04:25 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:04:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:04:31] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:04:37 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:04:37] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:04:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:04:40] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:04:43 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:04:43] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:05:02 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:05:02] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:05:25 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:05:25] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:05:31 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:05:31] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:05:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:05:34] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:05:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:05:42] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:06:10 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:06:10 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:06:14 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:06:14] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:06:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:06:19] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:06:36 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:06:36 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:15:41 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:15:41 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:15:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:15:45] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:15:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:15:49] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:15:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:15:52] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:15:56 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:15:56] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:16:01 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:16:01] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:16:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:16:10] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:05 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:18:05 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:18:10 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:10] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:11] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:18 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:18] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:23] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:18:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:18:32] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:20:58 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:20:58 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:21:29 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:21:29 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:23:45 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:23:45] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:23:52 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:23:52] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:23:58 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:23:58] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:24:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:24:03] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:24:13 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:24:13] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:24:35 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:24:35 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:24:38 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:24:38] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:24:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:24:44] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:22 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:25:22 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:25:30 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:30] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:34 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:34] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:45 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:25:45 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:25:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:48] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:25:48 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:48] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:49] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:49] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:49] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:49] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:49 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:49] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:51] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:57 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:57] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:25:58 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:25:58] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:03 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:03] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:05 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:05] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:08 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:08] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:11] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:15 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:15] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:26:19 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:26:19] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:28:42 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:28:42] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:28:46 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:28:46] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:38:45 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:38:45 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:38:58 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:38:58 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:06 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:06] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:11 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:11] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:17 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:17] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:21 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:21] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:39:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:39:24] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:47:51 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:47:51 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:53:19 EST - INFO:  * Running on http://127.0.0.1:5000/
+Wed Oct 09 2013 23:53:19 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:53:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:23] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:26 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:53:26] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:53:59 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:53:59 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:54:06 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:54:06 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:54:09 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:09] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:16 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:16] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:24 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:24] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:40] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:54:40 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:40] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:41] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:41] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:41] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:41] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:54:41 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:54:41] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:55:00 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:55:00 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:55:40 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:55:40 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:55:44 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:55:44] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:55:51 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:55:51] "POST /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:56:44 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:56:44 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:57:11 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Wed Oct 09 2013 23:57:11 EST - INFO:  * Restarting with reloader
+Wed Oct 09 2013 23:57:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:22] "POST /search HTTP/1.1" 500 -
+Wed Oct 09 2013 23:57:22 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:22] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:23] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:23] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:23] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:23] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:23 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:23] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:27 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:27] "GET /search HTTP/1.1" 200 -
+Wed Oct 09 2013 23:57:32 EST - INFO: 127.0.0.1 - - [09/Oct/2013 23:57:32] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:02:59 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:02:59] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:03:02 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:03:02] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:03:07 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:03:07] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:33 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Thu Oct 10 2013 00:04:33 EST - INFO:  * Restarting with reloader
+Thu Oct 10 2013 00:04:46 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:46] "POST /search HTTP/1.1" 500 -
+Thu Oct 10 2013 00:04:46 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:46] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:46 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:46] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:46 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:46] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:46 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:46] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:47 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:47] "GET /search?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+Thu Oct 10 2013 00:04:47 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:04:47] "GET /search?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:14 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Thu Oct 10 2013 00:06:14 EST - INFO:  * Restarting with reloader
+Thu Oct 10 2013 00:06:23 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:23] "GET /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:31 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:31] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:35 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:35] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:38 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:38] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:42 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:42] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:45 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:45] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:06:53 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:06:53] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:07:00 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:07:00] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:09:58 EST - INFO:  * Detected change in '/cygdrive/c/Users/Dulitha/Desktop/Dropbox/2013/3100/WebGit/finalvictimsweb/victims-web/src/victims_web/blueprints/dbSearch/__init__.py', reloading
+Thu Oct 10 2013 00:09:58 EST - INFO:  * Restarting with reloader
+Thu Oct 10 2013 00:10:01 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:01] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:10:03 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:03] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:10:07 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:07] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:10:11 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:11] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:10:14 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:14] "POST /search HTTP/1.1" 200 -
+Thu Oct 10 2013 00:10:17 EST - INFO: 127.0.0.1 - - [10/Oct/2013 00:10:17] "POST /search HTTP/1.1" 200 -
