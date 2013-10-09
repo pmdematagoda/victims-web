@@ -41,7 +41,10 @@ dbSearch = Blueprint('dbSearch', __name__,template_folder='templates')
     
 stringFields = {'name':"",'version':"",'format':"",'submitter':"",'vendor':"",'cve':""}
 hashFields={'sha512':"",'sha256':"",'md5':""}
-checkFields={'group':['java','python','ruby'], 'status':['submitted','released']}
+checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}}
+dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""}
+hashCheckBoxes={}
+   
 
 def getOrderedStringFields(default=None):
     list = stringFields.keys()
@@ -64,6 +67,9 @@ def basicSearch(searchField,searchString):
     time, any hash searches only checked the combined field."""
     if not sanitised(searchString):
         return (False,"Invalid Input", [])
+    
+    if len(searchString) == 0:
+        return (False,"",[])
         
     hashes = Hash.objects()
     if searchField in hashFields:
@@ -93,7 +99,10 @@ def searchPOST(query=None):
     
     if 'advSearch' in request.form:
         advanced="block"
-        success,message,hashes = advancedSearch()
+        
+        hashes = []
+        print "Group..", request.form.getlist('group')
+        #success,message,hashes = advancedSearch()
     else:
         advanced="none"
         success,message,hashes = basicSearch(searchField,searchString)
@@ -106,13 +115,30 @@ def searchPOST(query=None):
         'message':message,
         'basicString':searchString,
         'orderedStringFields':getOrderedStringFields(searchField),
-        'hashFields':hashFields
+        'stringFields':stringFields,
+        'hashFields':hashFields,
+        'checkFields':checkFields,
+        'dateSearchValues':dateFields,
+        'hashCheckBoxes':hashCheckBoxes
     }    
     return render_template('search.html', **data)
 
 def searchGET(query=None):
     """This function handles the display of /search.html when no search query
     has been submitted. (i.e. the default view)"""
+    #Reset Fields
+    for dict in ['stringFields','hashFields','dateFields']:
+        for key in eval(dict).keys():
+            eval(dict)[key] = ""
+    
+    for group in checkFields.keys():
+        for key in checkFields[group].keys():
+            checkFields[group][key]=False
+
+    for hashType in hashFields.keys():
+        hashCheckBoxes[hashType]=[True,False]
+
+    
     data={
         'hashes':[],
         'success':False,
@@ -120,7 +146,11 @@ def searchGET(query=None):
         'basicString':"",
         'orderedStringFields':getOrderedStringFields(),
         'advanced':"none",
-        'hashFields':hashFields
+        'stringFields':stringFields,
+        'hashFields':hashFields,
+        'checkFields':checkFields,
+        'dateSearchValues':dateFields,
+        'hashCheckBoxes':hashCheckBoxes
         
     }
     return render_template('search.html', **data)
