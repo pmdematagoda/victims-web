@@ -34,6 +34,8 @@ from victims_web.models import Hash
 from victims_web.cache import cache
 from flask.ext.mongoengine import Document
 
+from mongoengine.queryset import Q
+
 from mongoengine import (StringField, DateTimeField, DictField,
                          BooleanField)
 
@@ -89,6 +91,123 @@ def basicSearch(searchField,searchString):
         return (False,"No Results Found",[])
     else:
         return (True,str(len(hashes)) + " Results Found",hashes)
+
+
+def stringQuery(field,searchString,lookup):        
+    option = request.form.get(field+"_searchOption","contains")
+    if option == "contains":
+       lookup = lookup & Q(**{"%s__icontains" % field:searchString})
+    elif option == "exact":
+       lookup = lookup & Q(**{"%s__iexact" % field:searchString})
+    elif option == "any":
+       for term in searchString.split():
+        lookup = lookup | Q(**{"%s__icontains" % field:term})
+
+    return lookup
+            
+def SetHashCheckedBoxes(field):
+    checkedBoxes= request.form.getlist('%s_combined'%field)
+    checkedBoxes = [str(x) for x in checkedBoxes]
+    if 'Combined' in checkedBoxes:
+        hashCheckBoxes[field][0]=True
+    else:
+        hashCheckBoxes[field][0]=False
+    if 'All' in checkedBoxes:
+        hashCheckBoxes[field][1]=True
+    else:
+        hashCheckBoxes[field][1]=False    
+    
+    
+def advancedSearch():
+    lookup = Q()
+    
+    filterFields = []
+    #filter by checkfields
+    print "Group..", request.form.getlist('group')
+    
+    
+    
+    #process all the stringField values.
+    for field in stringFields.keys():
+        #Get and sanitise input
+        searchString = str(request.form.get(field+"_searchString",""))
+        if not sanitised(searchString):
+            return (False,"Invalid Input for field: "+field+".", [])        
+        stringFields[field]=searchString
+        if len(searchString) > 0:
+            filterFields.append(field)
+            
+            if field == 'cve':         
+                field = "cves__id"
+   
+            lookup = stringQuery(field,searchString,lookup)
+        
+    #process all the hash keys
+    for field in hashFields.keys():
+        #Get and sanitise input
+        searchString = str(request.form.get(field+"_searchString",""))
+        if not sanitised(searchString):
+            return (False,"Invalid Input for field: "+field+".", [])        
+        hashFields[field]=searchString
+        SetHashCheckedBoxes(field)        
+        if len(searchString) > 0:            
+            #if all is selected, then don't need to only look at combined
+            #otherwise we filter by combined as well.
+            if (hashCheckBoxes[field][1]):
+                searchField = "hashes__%s" % field            
+                lookup = stringQuery(searchField,searchString,lookup)            
+                filterField = "hashes.%s.*" % field
+                filterFields.append(filterField)
+            elif (hashCheckBoxes[field][0]):
+                searchField = "hashes__%s__combined" % field            
+                lookup = stringQuery(searchField,searchString,lookup)            
+                filterField = "hashes.%s.combined" % field
+                filterFields.append(filterField)
+                
+    #process datefield
+    day=request.form.get('date_day',"2013")
+    month=request.form.get('date_month',"1")
+    year=request.form.get('date_year',"1")
+    option=request.form.get('date_option','any')
+    dateFields['date_day_val']=day
+    dateFields['date_month_val']=month
+    dateFields['date_year_val']=year
+    
+    if len(day) > 0 and len(month)> 0 and len(year)>0:
+        date = datetime.datetime(int(year),int(month),int(day))
+        if option =='on':
+            dateLookup = Q(submittedon=date)
+        elif option =='before':
+            dateLookup = Q(submittedon__lte=date)
+        elif option =='after':
+            dateLookup = Q(submittedon__gte=date)
+        else:
+            dateLookup = Q()
+        
+        lookup = lookup  & dateLookup
+    
+    
+    
+    print filterFields
+    
+    if len(filterFields) == 0:
+        #Nothing to search.
+        return (False, "",[])
+    
+    #Do the actual search
+    hashes = Hash.objects.only(*filterFields).filter(lookup)
+    #.only(*filterFields)
+    #hashes.filter(lookup)
+        
+    if (len(hashes) == 0):
+        return (False,"No Results Found",[])
+    else:
+        print "SEARCH FOUND!"
+        print "Results: " , len(hashes)
+        return (True,str(len(hashes)) + " Results Found",hashes)
+ 
+    
+    
     
 def searchPOST(query=None):
     """This function handles the search once some part of the form has been submitted"""
@@ -101,12 +220,20 @@ def searchPOST(query=None):
         advanced="block"
         
         hashes = []
-        print "Group..", request.form.getlist('group')
-        #success,message,hashes = advancedSearch()
+        success,message,hashes = advancedSearch()
     else:
         advanced="none"
         success,message,hashes = basicSearch(searchField,searchString)
     
+    print "-----------"
+    print "Hash Fields"
+    print hashFields
+    print "StringFields"
+    print stringFields 
+    print "OrderedStringFields"
+    sfs = getOrderedStringFields()
+    print sfs
+    print "-----------"
     
     data={
         'advanced':advanced,
@@ -114,7 +241,7 @@ def searchPOST(query=None):
         'success':success,
         'message':message,
         'basicString':searchString,
-        'orderedStringFields':getOrderedStringFields(searchField),
+        'orderedStringFields':sfs,
         'stringFields':stringFields,
         'hashFields':hashFields,
         'checkFields':checkFields,

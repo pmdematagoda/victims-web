@@ -56,7 +56,7 @@
         {% for field in orderedStringFields %}        
         <tr>
         <td>{{ field|title }}:  </td>
-        <td><input type="search" size="50" value="{{stringFields[field]}}" name="{{ field }}_searchString"/> </td>
+        <td><input type="search" size="50" {% if field in hashFields %} value="{{hashFields[field]}}" {% else %} value="{{stringFields[field]}}"{% endif %} name="{{ field }}_searchString"/> </td>
         <td>
         <select name="{{field}}_searchOption">
            <option value="contains" title="search {{field}}'s containing the entire string"> contains </option>
@@ -122,9 +122,7 @@
           {% for hash in hashes %}
           <tr>
                 <td>{{ hash.name }}-{{ hash.version }}</td>
-                <td>
-                <a href="{{ url_for('ui.hash', hash=hash.hashes.sha512.combined) }}">            
-                {{hash.hashes.sha512.combined[:10]}}...</a> </td>
+       
           </tr>
           {% endfor %}
       {% else %}
