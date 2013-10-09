@@ -46,6 +46,9 @@ hashFields={'sha512':"",'sha256':"",'md5':""}
 checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}}
 dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""}
 hashCheckBoxes={}
+for hashType in hashFields.keys():
+    hashCheckBoxes[hashType]=[True,False]
+printFields={'name','version','hashes.sha512.combined'}
    
 
 def getOrderedStringFields(default=None):
@@ -121,11 +124,25 @@ def SetHashCheckedBoxes(field):
 def advancedSearch():
     lookup = Q()
     
-    filterFields = []
-    #filter by checkfields
-    print "Group..", request.form.getlist('group')
+    filterFields = []    
     
-    
+    for field in checkFields.keys():
+        #Update checkFields
+        checkedBoxes=request.form.getlist(field)
+        checkedBoxes = [str(x) for x in checkedBoxes]
+        checkeredLookup = Q()
+        for key in checkFields[field].keys():
+            fieldSelected = False
+            if key in checkedBoxes:
+                checkFields[field][key]=True
+                checkeredLookup = checkeredLookup | Q(**{"%s__iexact" % field: key})
+                fieldSelected = True
+            else:
+                checkFields[field][key]=False
+            
+            if fieldSelected:
+                filterFields.append(field)
+        lookup = lookup & checkeredLookup
     
     #process all the stringField values.
     for field in stringFields.keys():
@@ -188,22 +205,17 @@ def advancedSearch():
     
     
     
-    print filterFields
     
     if len(filterFields) == 0:
         #Nothing to search.
         return (False, "",[])
     
     #Do the actual search
-    hashes = Hash.objects.only(*filterFields).filter(lookup)
-    #.only(*filterFields)
-    #hashes.filter(lookup)
+    hashes = Hash.objects.only(*filterFields).only(*printFields).filter(lookup)
         
     if (len(hashes) == 0):
         return (False,"No Results Found",[])
     else:
-        print "SEARCH FOUND!"
-        print "Results: " , len(hashes)
         return (True,str(len(hashes)) + " Results Found",hashes)
  
     
@@ -225,23 +237,14 @@ def searchPOST(query=None):
         advanced="none"
         success,message,hashes = basicSearch(searchField,searchString)
     
-    print "-----------"
-    print "Hash Fields"
-    print hashFields
-    print "StringFields"
-    print stringFields 
-    print "OrderedStringFields"
-    sfs = getOrderedStringFields()
-    print sfs
-    print "-----------"
-    
+   
     data={
         'advanced':advanced,
         'hashes':hashes,
         'success':success,
         'message':message,
         'basicString':searchString,
-        'orderedStringFields':sfs,
+        'orderedStringFields':getOrderedStringFields(searchField),
         'stringFields':stringFields,
         'hashFields':hashFields,
         'checkFields':checkFields,
