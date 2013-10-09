@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+{% block head %} 
+	<script type="text/javascript">
+	
+    
+    function showBiggerForm(){
+        var ele = document.getElementById("biggerForm");
+        var select = document.getElementById("primarySelect");
+        var search = document.getElementById("primaryBox");
+        var checked = document.getElementById("advSearch");
+        if (ele.style.display=="none"){
+            ele.style.display ="block";
+            search.disabled=true;
+            primarySelect.disabled=true;
+    
+        } else {
+            ele.style.display ="none";
+            search.disabled=false;
+            primarySelect.disabled=false;
+    
+        }
+        console.log(ele.style.display);
+    }
+    
+    
+    </script>
+    
+{% endblock %}
+
+{% block content %}
+
+    
+    <form method="POST">
+    <p>
+        <select id="primarySelect" name='field'>
+        {% for field in acceptedFields.keys() %}
+        <option value="{{ field }}">{{ field|title }}</option>
+            
+        {% endfor %}
+        </select>
+        <input type="search" size="50" id="primaryBox" name="searchString" value="{{ searchString }}"/>
+        <input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
+        <input type="submit" value="Search!"/>
+        Advanced Search<input type="checkbox" name="advSearch" {% if advanced=="block" %} checked='checked'{% endif %} onclick="showBiggerForm()"/> 
+        
+    </p>
+    <div id="biggerForm" style="display: {{ advanced }}">
+           <table>
+            {% for field,searchVal in acceptedFields.items() %}
+            
+            <tr>
+            <td>{{ field|title }}:  </td>
+            <td><input type="search" size="50" value="{{ searchVal }}" name="{{ field }}_searchString"/> </td>
+            <td>
+            <select name="{{field}}_searchOption">
+               <option value="contains" title="search {{field}}'s containing the entire string"> contains </option>
+               <option value="exact" title="search {{field}}'s exactly matching the entire string (case insensitive)"> exact match </option>
+               <option value="any" title="search {{field}}'s containing any of the following, delimited by ' '.(space)"> any </option>
+            </select>           
+            </td>
+            </tr>
+            {% endfor %}   
+            <!-- Date Field -->
+            <tr>
+            <td>Submitted 
+            </td>
+            <td>
+                <input name="date_day" size="2" value="{{ date_day_val }}" pattern="[0-3][0-9]" placeholder="DD"/>-
+                <input name="date_month" size="2" value="{{ date_month_val }}" pattern="[0,1][0-9]" placeholder="MM"/>-
+                <input name="date_year" size="4" value="{{ date_year_val }}" pattern="[0-9]{4}" placeholder="YYYY"/>
+                
+            </td>
+            <td>
+            <select name="date_option">
+                <option value="any"> any </option>
+                <option value="on"> on </option>
+                <option value="before"> before </option>
+                <option value="after"> after </option>
+            </select>
+            </td>
+            </tr>
+           </table>
+    </div>
+    
+    
+    </form>
+
+  
+<table>
+
+    {% if numResults!=0 %}
+  
+    <font color='blue'> {{numResults}} results found </font>
+    <tr>
+        <th>Name-Version</th>
+        <th>SHA512 Hash</th>
+      </tr>
+      {% for hash in hashes %}
+      <tr>
+            <td>{{ hash.name }}-{{ hash.version }}</td>
+            <td>
+            <a href="{{ url_for('ui.hash', hash=hash.hashes.sha512.combined) }}">            
+            {{hash.hashes.sha512.combined[:50]}}</a> </td>
+      </tr>
+      {% endfor %}
+  {% else %}
+
+    <font color='red'>No Results Found</font>
+      
+  {% endif %}
+  
+</table>
+{% endblock %}
