@@ -41,19 +41,22 @@ from mongoengine import (StringField, DateTimeField, DictField,
 
 dbSearch = Blueprint('dbSearch', __name__,template_folder='templates')  
     
-stringFields = {'name':"",'version':"",'format':"",'submitter':"",'vendor':"",'cve':""}
-hashFields={'sha512':"",'sha256':"",'md5':""}
-checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}}
-dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""}
-hashCheckBoxes={}
+stringFields = {'name':"",'version':"",'format':"",'submitter':"",'vendor':"",'cve':""} #Fields which correspond to StringFields in Models.Hash
+hashFields={'sha512':"",'sha256':"",'md5':""} #Complex dictionary fields, also stringfields in the end.
+checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}} #Checkbox fields in html page
+dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""} #Date fields in html page
+hashCheckBoxes={} #Swaps between Combined and All. Perhaps swap to Radio button.
 for hashType in hashFields.keys():
     hashCheckBoxes[hashType]=[True,False]
-printFields={'name','version','hashes.sha512.combined'}
-ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','-','+','=','?','\"','\'','<','>']
+printFields={'name','version','hashes.sha512.combined'} #Fields that are output
+ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','-','+','=','?','\"','\'','<','>'] #Used for sanitising input.
 unsanitisedMessage="The following characters are not allowed:"
 unsanitisedMessage+= "".join(ILLEGAL_CHARACTERS)
 
 def getOrderedStringFields(default=None):
+    """Generates the order of each field on the html page,
+    currently alphabetical order with 'default' being moved to the top.
+    """
     list = stringFields.keys()
     list.extend(hashFields.keys())
     list.sort()
@@ -102,6 +105,13 @@ def basicSearch(searchField,searchString):
 
 
 def stringQuery(field,searchString,lookup):        
+    """Advanced search helper function, handles the difference
+    between the selected 'contains/exact' boxes
+    
+    field = field to be searched
+    searchString = string to be searched for
+    lookup = existing queryset.
+    """
     option = request.form.get(field+"_searchOption","contains")
     if option == "contains":
        lookup = lookup & Q(**{"%s__icontains" % field:searchString})
@@ -114,6 +124,9 @@ def stringQuery(field,searchString,lookup):
     return lookup
             
 def SetHashCheckedBoxes(field):
+    """
+    Reads the post data for checked boxes in hash fields
+    """
     checkedBoxes= request.form.getlist('%s_combined'%field)
     checkedBoxes = [str(x) for x in checkedBoxes]
     if 'Combined' in checkedBoxes:
@@ -127,6 +140,14 @@ def SetHashCheckedBoxes(field):
     
     
 def advancedSearch():
+    """
+    Queries the database using all the advanced search parameters
+    Returns tuple: (Success, Message, Hashes)
+        Success- whether the search was succesful, and found items.
+        Message- error or success message to be displayed.
+        Hashes - Results (Hash objects)
+    """
+
     lookup = Q()
     
     filterFields = []    
@@ -295,17 +316,21 @@ def search(query=None):
     """This function is highly coupled with search.html.
     The data keys that search.html look for are:
        
-     Basic Search::
-        basicString:  <string>: previous search string.
+     Used for setting values/defaults:
+        hashFields:{field:value}
+        checkFields:{field:{option:value}}
+        dateSearchValues:{field,value} #Required fields: date_day_val, date_month_val, date_year_val
+        hashCheckBoxes:{field:(combinedBool,allBool)}
         orderedStringFields: [<string>]: list of fields that can be searched as string.
                             Ordered in alphabetical order, with previous selection as first.
                             
+       
+     Basic Search::
+        basicString:  <string>: previous search string.
+        
 
      Advanced Search::
        advanced: ["none"|"block"]: whether or not advanced search is used.
-       date_day_val:: search value for submitted day
-       date_month_val:: search value for submitted month
-       date_year_val:: search value for submitted year
 
      Results::
         message: <string>: [#results found | error:...| No results found]
