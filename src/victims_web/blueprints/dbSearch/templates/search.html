@@ -62,15 +62,7 @@
            <option value="contains" title="search {{field}}'s containing the entire string"> contains </option>
            <option value="exact" title="search {{field}}'s exactly matching the entire string (case insensitive)"> exact match </option>
            <option value="any" title="search {{field}}'s containing any of the following, delimited by ' '.(space)"> any </option>
-        </select>           
-        
-        <!-- Hash Fields -->
-        {% if field in hashFields %}
-            <input type="checkbox" name="{{field}}_combined" value="Combined" {% if hashCheckBoxes[field][0] %} checked='checked' {% endif %}> Combined
-            <input type="checkbox" name="{{field}}_combined" value="All" {% if hashCheckBoxes[field][1] %} checked='checked' {% endif %}> All (slow)            
-        {% endif %}
-        
-        
+        </select>                  
         </td>
         </tr>
         {% endfor %}   

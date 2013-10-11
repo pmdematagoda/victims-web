@@ -42,12 +42,13 @@ from mongoengine import (StringField, DateTimeField, DictField,
 dbSearch = Blueprint('dbSearch', __name__,template_folder='templates')  
     
 stringFields = {'name':"",'version':"",'format':"",'submitter':"",'vendor':"",'cve':""} #Fields which correspond to StringFields in Models.Hash
-hashFields={'sha512':"",'sha256':"",'md5':""} #Complex dictionary fields, also stringfields in the end.
+hashFields={'sha512':"",'sha256':"",'md5':""} #Complex dictionary fields, also stringfields in the end. Note, only the .combined hash is searched.
+#The reason only .combined is searched, is because the schema has this as a dict field with dynamic key value pairs, it does not seem possible to
+#dynamically query all key/value pairs in any simple way. A better schema would allow for this type of search. If this occurs, look at 
+#Revision: 83b2efe6dd9ba35f60be77ac8d4383e016d55f70 on https://github.com/pmdematagoda/victims-web/ branch: searchTool
+
 checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}} #Checkbox fields in html page
 dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""} #Date fields in html page
-hashCheckBoxes={} #Swaps between Combined and All. Perhaps swap to Radio button.
-for hashType in hashFields.keys():
-    hashCheckBoxes[hashType]=[True,False]
 printFields={'name','version','hashes.sha512.combined'} #Fields that are output
 ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','-','+','=','?','\"','\'','<','>'] #Used for sanitising input.
 unsanitisedMessage="The following characters are not allowed:"
@@ -125,22 +126,7 @@ def stringQuery(field,searchString,lookup):
         lookup = lookup | Q(**{"%s__icontains" % field:term})
 
     return lookup
-            
-def SetHashCheckedBoxes(field):
-    """
-    Reads the post data for checked boxes in hash fields
-    """
-    checkedBoxes= request.form.getlist('%s_combined'%field)
-    checkedBoxes = [str(x) for x in checkedBoxes]
-    if 'Combined' in checkedBoxes:
-        hashCheckBoxes[field][0]=True
-    else:
-        hashCheckBoxes[field][0]=False
-    if 'All' in checkedBoxes:
-        hashCheckBoxes[field][1]=True
-    else:
-        hashCheckBoxes[field][1]=False    
-    
+              
     
 def advancedSearch():
     """
@@ -195,21 +181,12 @@ def advancedSearch():
         if not sanitised(searchString):
             return (False,"Invalid Input for field: "+field+"." + unsanitisedMessage, [])        
         hashFields[field]=searchString
-        SetHashCheckedBoxes(field)        
         if len(searchString) > 0:            
-            #if all is selected, then don't need to only look at combined
-            #otherwise we filter by combined as well.
-            if (hashCheckBoxes[field][1]):
-                searchField = "hashes__%s__*" % field            
-                lookup = stringQuery(searchField,searchString,lookup)            
-                filterField = "hashes.%s.*" % field
-                filterFields.append(filterField)
-            elif (hashCheckBoxes[field][0]):
-                searchField = "hashes__%s__combined" % field            
-                lookup = stringQuery(searchField,searchString,lookup)            
-                filterField = "hashes.%s.combined" % field
-                filterFields.append(filterField)
-                
+            searchField = "hashes__%s__combined" % field            
+            lookup = stringQuery(searchField,searchString,lookup)            
+            filterField = "hashes.%s.combined" % field
+            filterFields.append(filterField)
+            
     #process datefield
     day=request.form.get('date_day',"2013")
     month=request.form.get('date_month',"1")
@@ -277,8 +254,7 @@ def searchPOST(query=None):
         'stringFields':stringFields,
         'hashFields':hashFields,
         'checkFields':checkFields,
-        'dateSearchValues':dateFields,
-        'hashCheckBoxes':hashCheckBoxes
+        'dateSearchValues':dateFields
     }    
     return render_template('search.html', **data)
 
@@ -294,9 +270,6 @@ def searchGET(query=None):
         for key in checkFields[group].keys():
             checkFields[group][key]=False
 
-    for hashType in hashFields.keys():
-        hashCheckBoxes[hashType]=[True,False]
-
     
     data={
         'hashes':[],
@@ -308,8 +281,7 @@ def searchGET(query=None):
         'stringFields':stringFields,
         'hashFields':hashFields,
         'checkFields':checkFields,
-        'dateSearchValues':dateFields,
-        'hashCheckBoxes':hashCheckBoxes
+        'dateSearchValues':dateFields
         
     }
     return render_template('search.html', **data)
@@ -323,7 +295,6 @@ def search(query=None):
         hashFields:{field:value}
         checkFields:{field:{option:value}}
         dateSearchValues:{field,value} #Required fields: date_day_val, date_month_val, date_year_val
-        hashCheckBoxes:{field:(combinedBool,allBool)}
         orderedStringFields: [<string>]: list of fields that can be searched as string.
                             Ordered in alphabetical order, with previous selection as first.
                             
