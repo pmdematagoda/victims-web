@@ -84,19 +84,22 @@ def basicSearch(searchField,searchString):
     if len(searchString) == 0:
         return (False,"",[])
         
-    hashes = Hash.objects()
+    lookup = ""
+    field = searchField
+    
     if searchField in hashFields:
             lookup = "hashes__%s__combined__icontains" % searchField
-            hashes = hashes.filter(**{lookup: searchString})
+            field = "hashes.%s.combined" % searchField
     elif searchField == 'cve':         
             lookup = "cves__id__icontains"
-            hashes = hashes.filter(**{lookup: searchString})
+            field = "cves.id"
     else:
         if isinstance(getattr(Hash,searchField),StringField):
             lookup = "%s__icontains" % searchField    
         else:
             lookup = searchField
-        hashes = hashes.filter(**{lookup: searchString})
+    
+    hashes = Hash.objects().only(field).only(*printFields).filter(**{lookup: searchString})
 
     if (len(hashes) == 0):
         return (False,"No Results Found",[])
@@ -197,7 +200,7 @@ def advancedSearch():
             #if all is selected, then don't need to only look at combined
             #otherwise we filter by combined as well.
             if (hashCheckBoxes[field][1]):
-                searchField = "hashes__%s" % field            
+                searchField = "hashes__%s__*" % field            
                 lookup = stringQuery(searchField,searchString,lookup)            
                 filterField = "hashes.%s.*" % field
                 filterFields.append(filterField)
@@ -238,7 +241,7 @@ def advancedSearch():
     
     #Do the actual search
     hashes = Hash.objects.only(*filterFields).only(*printFields).filter(lookup)
-        
+    
     if (len(hashes) == 0):
         return (False,"No Results Found",[])
     else:
