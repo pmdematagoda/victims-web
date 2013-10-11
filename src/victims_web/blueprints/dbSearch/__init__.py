@@ -167,11 +167,9 @@ def advancedSearch():
             return (False,"Invalid Input for field: "+field+"." + unsanitisedMessage, [])        
         stringFields[field]=searchString
         if len(searchString) > 0:
-            filterFields.append(field)
-            
             if field == 'cve':         
                 field = "cves__id"
-   
+            filterFields.append(field)
             lookup = stringQuery(field,searchString,lookup)
         
     #process all the hash keys

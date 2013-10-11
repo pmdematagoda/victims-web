@@ -6,7 +6,7 @@
 	
     
     function showBiggerForm(){
-        var ele = document.getElementById("biggerForm");
+        var ele = document.getElementById("searchForm");
         var select = document.getElementById("primarySelect");
         var search = document.getElementById("primaryBox");
         var checked = document.getElementById("advSearch");
@@ -32,7 +32,7 @@
 {% block content %}
     
     <!-- Basic search section -->
-    <form method="POST">
+    <form method="POST" class="searchform">
     <p>
         <select id="primarySelect" name='field'>
         {% for field in orderedStringFields %}
@@ -49,10 +49,10 @@
     
     
     <!-- Advanced Search Section -->
-    <div id='biggerForm' style='display: {{ advanced }}'>
+    <div id='searchForm' style='display: {{ advanced }}'>
         
         <!-- String Fields -->
-       <table>
+       <table id="searchtable">
         {% for field in orderedStringFields %}        
         <tr>
         <td>{{ field|title }}:  </td>
@@ -102,7 +102,7 @@
     
     
     <!-- Results/Output Section -->
-     <table>
+     <table id="statustable">
 
         {% if success %}
       
@@ -115,7 +115,7 @@
           <tr>
                 <td>{{ hash.name }}-{{ hash.version }}</td>
                 <td><a href="{{ url_for('ui.hash', hash=hash.hashes.sha512.combined) }}">            
-                {{hash.hashes.sha512.combined[:10]}}</a> </td>       
+                {{hash.hashes.sha512.combined[:10]}}...</a> </td>       
           </tr>
           {% endfor %}
       {% else %}
