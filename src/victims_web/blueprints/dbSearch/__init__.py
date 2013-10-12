@@ -50,7 +50,7 @@ hashFields={'sha512':"",'sha256':"",'md5':""} #Complex dictionary fields, also s
 checkFields={'group':{'java':True,'python':False,'ruby':False}, 'status':{'submitted':False,'released':False}} #Checkbox fields in html page
 dateFields={'date_day_val':"",'date_month_val':"",'date_year_val':""} #Date fields in html page
 printFields={'name','version','hashes.sha512.combined'} #Fields that are output
-ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','-','+','=','?','\"','\'','<','>'] #Used for sanitising input.
+ILLEGAL_CHARACTERS=[',','/','\\','.','!','@','#','$','%','^','&','*','(',')','+','=','?','\"','\'','<','>'] #Used for sanitising input.
 unsanitisedMessage="The following characters are not allowed:"
 unsanitisedMessage+= "".join(ILLEGAL_CHARACTERS)
 
