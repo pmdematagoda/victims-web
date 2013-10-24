@@ -109,8 +109,60 @@ class JavaManager(Manager):
         return downloaded
 
 
+class RubyManager(Manager):
+    """
+    Provide Charon with Ruby package knowledge using rubygems
+    """
+    def __init__(self):
+        self._repos = []
+
+    def update_repos(self):
+        for (name, uri) in REPOSITORIES['ruby']:
+            if (name, uri) not in self._repos:
+                self._repos.append(RubyGems(name, uri))
+
+    @property
+    def repos(self):
+        self.update_repos()
+        return self._repos
+
+    def make_gem(self, info):
+        try:
+            name = info['name']
+            version = info['version']
+            return Gem(name, version)
+        except:
+            raise ValueError('Could not identify artifact using provided info')
+
+    def download(self, info):
+        gem = self.make_gem(info)
+        queue = {}
+        for repo in self.repos:
+            uri = repo.get_gem_uri(gem, 'gem')
+            if uri and uri not in queue and uri.strip != '':
+                queue[uri] = repo
+
+        if len(queue) == 0:
+            raise ValueError('No artifact found for %s' % (gem))
+
+        downloaded = []
+        for uri in queue:
+            repo = queue[uri]
+            prefix = '%s-%s' % (str(uuid4()), repo.name)
+            try:
+                localfile = repo.download_gem(
+                    gem, DOWNLOADS_DIR, prefix, True)
+                downloaded.append((localfile, gem.to_rg_name(), 'gem'))
+            except DownloadException as de:
+                LOGGER.debug(
+                    'Skipping download from %s: %s' % (repo.name, de.message)
+                )
+        return downloaded
+
+
 MANAGERS = {
     'java': JavaManager(),
+    'ruby': RubyManager(),
 }
 
 
